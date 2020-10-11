@@ -1,0 +1,97 @@
+body {
+    background-color: #132743;
+    margin: 0 1vh;
+}
+
+body button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 6vh;
+    color: #eeeeee; 
+}
+
+body button:hover{
+    background-color: #15b4b9;
+}
+
+body h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8vh;
+    color: black;
+    font-weight: 500;
+
+    padding: 0.5vh 2vh;
+}
+
+body h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vh;
+    color: rgb(151, 151, 151);
+
+    padding: 0 2.5vh;
+}
+
+.container {
+    margin: 1vh;
+}
+
+.tela /*fora da div calculadora*/{
+    height: 12vh;
+    width: 100%;
+    background-color: #eeeeee;
+    margin-bottom: 1.6vh;
+    margin-top: 1.6vh;
+    border-radius: 3px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 6vh;
+    color: black;
+    text-align: right;
+}
+
+.calculadora{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 1.7vh;
+
+    margin-bottom: 1.6vh;
+}
+
+.numbercontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 15vh 15vh 15vh 15vh;
+    grid-gap: 1vh;
+}
+
+.numbercontainer button {
+    background-color: #686d76;
+    border: none;
+    border-radius: 3px;
+}
+
+.operadorcontainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15vh 15vh 15vh 15vh;
+    grid-gap: 1vh;
+}
+
+.operadorcontainer button {
+    border: none;
+    background-color: #373a40;
+    border-radius: 3px;
+}
+
+.igualcontainer /*fora da div calculadora*/{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 18.7vh;
+}
+
+.igualcontainer button {
+    border: none;
+    border-radius: 3px;
+    background-color: #19d3da;
+}
