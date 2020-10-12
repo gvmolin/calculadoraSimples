@@ -27,7 +27,7 @@ function printarBotao(event){
 }
 
 function limparTela(){
-    resultadoCalculadora.innerText = ""
+    resultadoCalculadora.innerText = "0"
     contaCalculadora.innerText = ""
 }
 
